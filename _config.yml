@@ -1,11 +1,11 @@
 # Site settings
-title: One Ping Only
+title: praxeo_blog
 author:
   name: Benjamin J. Thompson
   email: bjt@rabidquill.com
 description: I am a software developer specializing in web development, data integrations, automation and Linux system administration.
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://www.one-ping-only.com" 
+url: "https://praxeo.github.io" 
 
 show_excerpts: true # set to true to show excerpts on the homepage
 
@@ -20,7 +20,7 @@ minima:
     github:  praxeo
     # devto: jekyll
     # dribbble: jekyll
-    facebook: One-Ping-Only-110174943971360
+    facebook: https://www.facebook.com/Benjamin-J-Thompson-113092810044557/
     # flickr:   jekyll
     # instagram: jekyll
     linkedin: benthompsonelkhart
