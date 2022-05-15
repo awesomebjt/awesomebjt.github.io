@@ -3,7 +3,7 @@ title: "Using Fedora Toolbox to Work with Jekyll"
 layout: post
 ---
 
-The [toolbox](https://docs.fedoraproject.org/en-US/fedora-silverblue/toolbox/) utility provided by Fedora doesn't necessarily make setting up a development environment faster or easier, but it does simplify your task if you don't want your development stacks mingled in with your desktop operating system. Almost every software development stack wants to make its special modifications to your PATH and other environment variables. Before long, especially if you like to dabble in as many things as I do, this creates a lot of clutter that can be hard to clean up, and a horde of virtual machines doesn't feel much like a solution either. What Toolbox does is create containers that are tightly coupled to the host sytem, having access to various ports and volumes, but isolating everything that you're installing and executing inside a container. This gives you some freedom to install a broad range of packages, without all these dependencies turning into something your base operating system has to juggle.
+The [toolbox](https://docs.fedoraproject.org/en-US/fedora-silverblue/toolbox/) utility provided by Fedora doesn't necessarily make setting up a development environment faster or easier, but it does simplify your task if you don't want your development stacks mingled in with your desktop operating system. Almost every software development stack wants to make its special modifications to your PATH and other environment variables. Before long, especially if you like to dabble in as many things as I do, this creates a lot of clutter that can be hard to clean up, and a horde of virtual machines doesn't feel much like a solution either. What Toolbox does is create containers that are tightly coupled to the host sytem, having access to various ports and volumes, but isolating everything that you're installing and executing inside a container. This gives you some freedom to install a broad range of packages in the naive way (such as with the system package manager), without all these dependencies turning into something your base operating system has to juggle.
 
 In my case, on Fedora 36, I can check this blog out and start working on it with the following commands.
 
@@ -41,6 +41,6 @@ If you're working with a Github pages site and this doesn't just work, if you ge
 ```
 gem "webrick"
 ```
-And use `bundle install` again.
+And use `bundle install` again. This sometimes happens when running a Github pages Jekyll project in Ruby versions 3 and higher. You could also regress to a Ruby version under 3 but our goal here was to let Toolbox make setting up the environment as naive as possible.
 
 You how have a functioning Jekyll environment conveniently isolated in a container!
