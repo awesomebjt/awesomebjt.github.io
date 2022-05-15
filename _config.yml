@@ -3,7 +3,7 @@ title: Praxeo
 author:
   name: Benjamin J. Thompson
   email: bjt@rabidquill.com
-description: I am a software developer specializing in web development, data integrations, automation and Linux system administration.
+description: Personal blog of Benjamin J. Thompson
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://praxeo.github.io" 
 
