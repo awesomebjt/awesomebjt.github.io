@@ -16,7 +16,7 @@ minima:
 
   # generate social links in footer
   social_links:
-    twitter: benj_thompson
+    # twitter: benj_thompson
     github:  praxeo
     # devto: jekyll
     # dribbble: jekyll
