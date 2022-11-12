@@ -34,11 +34,9 @@ minima:
     # keybase: jekyll
 
     # Mastodon instances
-    # mastodon:
-    # - username: jekyll
-    #   instance: example.com
-    # - username: jekyll2
-    #   instance: example.com
+    mastodon:
+    - username: bjt
+      instance: fosstodon.org
 
     # GitLab instances
     # gitlab:
