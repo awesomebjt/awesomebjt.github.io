@@ -5,7 +5,7 @@ author:
   email: bjt@rabidquill.com
 description: Personal blog of Benjamin J. Thompson
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://praxeo.github.io" 
+url: "https://awesomebjt.github.io" 
 
 show_excerpts: true # set to true to show excerpts on the homepage
 
@@ -17,7 +17,7 @@ minima:
   # generate social links in footer
   social_links:
     # twitter: benj_thompson
-    github:  praxeo
+    github:  awesomebjt
     # devto: jekyll
     # dribbble: jekyll
     facebook: https://www.facebook.com/Benjamin-J-Thompson-113092810044557/
@@ -34,9 +34,9 @@ minima:
     # keybase: jekyll
 
     # Mastodon instances
-#     mastodon:
-#     - username: bjt
-#       instance: fosstodon.org
+     mastodon:
+     - username: bjt
+       instance: fosstodon.org
 
     # GitLab instances
     # gitlab:
