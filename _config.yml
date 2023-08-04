@@ -34,9 +34,9 @@ minima:
     # keybase: jekyll
 
     # Mastodon instances
-    # mastodon:
-    #   - username: bjt
-    #     instance: fosstodon.org
+    mastodon:
+      - username: bjt
+        instance: fosstodon.org
 
     # GitLab instances
     # gitlab:
@@ -51,7 +51,7 @@ minima:
 # - about.md
 
 # Build settings
-remote_theme: jekyll/minima
+# remote_theme: jekyll/minima
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
