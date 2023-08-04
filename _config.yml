@@ -1,8 +1,6 @@
 # Site settings
 title: Simply Software
-author:
-  name: Benjamin J. Thompson
-  email: bjt@rabidquill.com
+author: Benjamin J. Thompson
 description: Personal blog of Benjamin J. Thompson
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://awesomebjt.github.io" 
@@ -16,29 +14,36 @@ avatar: "/assets/img/bjt-small.jpg"
 minima:
   date_format: "%b %-d, %Y"
 
+social-network-links:
+  email: "bjt@rabidquill.com"
+  github: awesomebjt
+  linkedin: benthompsonelkhart
+  facebook: Benjamin-J-Thompson-113092810044557
+  rss: true
+  
   # generate social links in footer
-  social_links:
-    # twitter: benj_thompson
-    github: awesomebjt
-    # devto: jekyll
-    # dribbble: jekyll
-    facebook: https://www.facebook.com/Benjamin-J-Thompson-113092810044557/
-    # flickr:   jekyll
-    # instagram: jekyll
-    linkedin: benthompsonelkhart
-    # pinterest: jekyll
-    # youtube: jekyll
-    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
-    # youtube_channel_name: CloudCannon
-    # telegram: jekyll
-    # googleplus: +jekyll
-    # microdotblog: jekyll
-    # keybase: jekyll
+  # social_links:
+  #   # twitter: benj_thompson
+  #   github: awesomebjt
+  #   # devto: jekyll
+  #   # dribbble: jekyll
+  #   facebook: https://www.facebook.com/Benjamin-J-Thompson-113092810044557/
+  #   # flickr:   jekyll
+  #   # instagram: jekyll
+  #   linkedin: benthompsonelkhart
+  #   # pinterest: jekyll
+  #   # youtube: jekyll
+  #   # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
+  #   # youtube_channel_name: CloudCannon
+  #   # telegram: jekyll
+  #   # googleplus: +jekyll
+  #   # microdotblog: jekyll
+  #   # keybase: jekyll
 
-    # Mastodon instances
-    mastodon:
-      - username: bjt
-        instance: fosstodon.org
+  #   # Mastodon instances
+  #   mastodon:
+  #     - username: bjt
+  #       instance: fosstodon.org
 
     # GitLab instances
     # gitlab:
