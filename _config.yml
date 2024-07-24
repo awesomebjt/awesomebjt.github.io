@@ -58,7 +58,7 @@ social-network-links:
 # - about.md
 
 # Build settings
-remote_theme: daattali/beautiful-jekyll
+remote_theme: mkrisher/jekyll-nord-theme
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
